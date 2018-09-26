@@ -89,9 +89,14 @@ public class Colosseum {
      * <p>
      * Implement this function.
      */
-    public static void printWhoIsAhead() {
+    public static void printWhoIsAhead() { if (a.hitPoints > b.Points) {
+        System.out.println(a.name + " is currently ahead");
+    } else {
+        System.out.println(b.name + " is currently ahead")
+    }
         System.out.println("Implement me!");
     }
+
 
     /**
      * Prints out the overall winner of the battle.
